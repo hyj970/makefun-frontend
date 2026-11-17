@@ -1,3 +1,12 @@
-node_modules/
+# Local build output (main.ts writes the hand-in here; the grader uses /output)
 out/
+
+# Node dependencies (none are needed: Node 22 stdlib only, no installs)
+node_modules/
+
+# Screenshots are taken by hand and committed; the tool that takes them lives in /tmp
+*.log
+
+# OS artefacts
 .DS_Store
+Thumbs.db
